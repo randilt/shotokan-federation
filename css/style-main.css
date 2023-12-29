@@ -125,12 +125,21 @@ body {
   gap: 20px;
   margin-bottom: 4rem;
 }
+@media (max-width: 768px) {
+  .news-section {
+    flex-direction: column;
+  }
+}
 .span-2 {
   grid-column: span 2;
 }
 .span-3 {
   grid-column: span 3;
 }
+.span-row {
+  grid-row-start: span 2;
+}
+
 .news-section {
   display: flex;
 
