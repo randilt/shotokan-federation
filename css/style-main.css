@@ -1075,8 +1075,6 @@ section > .container-fluid {
   position: relative;
 }
 .thumb img {
-  width: 300px;
-  height: 300px;
 }
 .status span {
   font-size: 16px;
